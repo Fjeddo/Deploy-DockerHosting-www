@@ -3,5 +3,5 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-COPY /app .
+COPY ./www .
 ENTRYPOINT ["dotnet", "www.dll"]
